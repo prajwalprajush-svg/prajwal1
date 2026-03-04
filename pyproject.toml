@@ -1,0 +1,14 @@
+[project]
+name = "cgpa_calculator"
+version = "0.1.0"
+description = "Simple CGPA calculator with CLI, GUI and web interfaces"
+authors = [
+    { name = "prajwalprajush-svg" }
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
